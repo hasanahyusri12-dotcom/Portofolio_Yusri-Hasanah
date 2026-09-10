@@ -127,7 +127,7 @@ export default function Contact() {
             </h1>
 
             <p style={{ color: "var(--text-secondary)", fontSize: "clamp(14px, 2vw, 15px)", lineHeight: 1.65, marginBottom: 28, maxWidth: 480 }}>
-              Terbuka untuk posisi <strong>Junior Frontend Developer</strong>, kesempatan magang, maupun proyek web freelance. Hubungi langsung melalui WhatsApp atau form di bawah ini.
+              Terbuka untuk posisi <strong>Junior Frontend Developer</strong>, It support/helpdesk dan QA/testing. Hubungi langsung melalui WhatsApp atau form di bawah ini.
             </p>
 
             {/* Kotak Kontak Interaktif */}

@@ -38,7 +38,7 @@ export const profile = {
   lokasi: "Bandung, Indonesia",
   pendidikan: "D3 Manajemen Informatika — Universitas Nasional PASIM Bandung",
   ipk: "3,73/4,00",
-  status: "Terbuka untuk Magang & Junior Frontend Developer",
+  status: "Terbuka untuk Junior Frontend Developer",
   ringkasan: "Saya Yusri Hasanah, Lulusan D3 Manajemen Informatika dengan IPK 3,73/4,00 yang memiliki keahlian utama pada pengembangan aplikasi web modern, khususnya frontend berbasis React.js. Berpengalaman membangun Single Page Application yang responsif, modular, dan terintegrasi dengan REST API. Saat ini aktif memperluas kemampuan ke arsitektur full-stack modern.",
   tentang: [
     "Saya adalah frontend developer yang passionate di React.js — suka membongkar UI menjadi komponen kecil yang reusable, lalu menyatukannya kembali dengan state management yang bersih.",
