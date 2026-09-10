@@ -44,7 +44,7 @@ export const profile = {
     "Saya adalah frontend developer yang passionate di React.js — suka membongkar UI menjadi komponen kecil yang reusable, lalu menyatukannya kembali dengan state management yang bersih.",
     "Latar belakang D3 Manajemen Informatika membuat saya nyaman di seluruh lini: mulai dari logika Bahasa C untuk menu laundry CLI, integrasi REST API publik untuk Al-Qur'an Digital, sampai arsitektur komponen React tingkat lanjut untuk aplikasi manajemen klinik.",
     "Saya percaya portofolio bukan sekadar daftar proyek, tapi bukti bahwa saya bisa berpikir terstruktur, menulis kode yang rapi, dan entregar sesuatu yang benar-benar dipakai pengguna.",
-    "Saat ini terbuka untuk posisi Junior Frontend Developer, program magang, atau kolaborasi freelance berbasis web.",
+    "Saat ini terbuka untuk posisi Junior Frontend Developer, It support/helpdesk, dan QA/testing.",
   ],
   email: "hasanahyusri12@gmail.com",
   telepon: "08886037566",
