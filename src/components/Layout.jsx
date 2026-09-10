@@ -262,7 +262,7 @@ export default function Layout() {
         </div>
       </footer>
 
-      {/* MOBILE BOTTOM NAVIGATION DOCK WITH THEME SWITCHER */}
+      {/* MOBILE BOTTOM NAVIGATION DOCK */}
       <nav
         className="mobile-nav-dock"
         style={{
@@ -298,26 +298,6 @@ export default function Layout() {
             </NavLink>
           );
         })}
-
-        {/* Mobile Theme Toggle Button */}
-        <button
-          onClick={toggleTheme}
-          style={{
-            background: "transparent",
-            border: "none",
-            color: "var(--text-primary)",
-            padding: "8px 9px",
-            borderRadius: 999,
-            cursor: "pointer",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-          title={isDark ? "Mode Terang" : "Mode Gelap"}
-          aria-label="Toggle theme"
-        >
-          {isDark ? <Sun size={17} color="#FBBF24" /> : <Moon size={17} color="var(--text-primary)" />}
-        </button>
       </nav>
     </div>
   );
