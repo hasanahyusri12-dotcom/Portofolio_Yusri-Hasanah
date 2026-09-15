@@ -39,12 +39,16 @@ export const profile = {
   pendidikan: "D3 Manajemen Informatika — Universitas Nasional PASIM Bandung",
   ipk: "3,73/4,00",
   status: "Terbuka untuk Junior Frontend Developer",
-  ringkasan: "Saya Yusri Hasanah, Lulusan D3 Manajemen Informatika dengan IPK 3,73/4,00 yang memiliki keahlian utama pada pengembangan aplikasi web modern, khususnya frontend berbasis React.js. Berpengalaman membangun Single Page Application yang responsif, modular, dan terintegrasi dengan REST API. Saat ini aktif memperluas kemampuan ke arsitektur full-stack modern.",
+  ringkasan:
+    "Saya Yusri Hasanah, Lulusan D3 Manajemen Informatika dengan IPK 3,73/4,00 yang memiliki keahlian utama pada pengembangan aplikasi web modern, khususnya frontend berbasis React.js. Berpengalaman membangun Single Page Application yang responsif, modular, dan terintegrasi dengan REST API. Saat ini aktif memperluas kemampuan ke arsitektur full-stack modern.",
   tentang: [
-    "Saya adalah frontend developer yang passionate di React.js — suka membongkar UI menjadi komponen kecil yang reusable, lalu menyatukannya kembali dengan state management yang bersih.",
-    "Latar belakang D3 Manajemen Informatika membuat saya nyaman di seluruh lini: mulai dari logika Bahasa C untuk menu laundry CLI, integrasi REST API publik untuk Al-Qur'an Digital, sampai arsitektur komponen React tingkat lanjut untuk aplikasi manajemen klinik.",
-    "Saya percaya portofolio bukan sekadar daftar proyek, tapi bukti bahwa saya bisa berpikir terstruktur, menulis kode yang rapi, dan entregar sesuatu yang benar-benar dipakai pengguna.",
-    "Saat ini terbuka untuk posisi Junior Frontend Developer, It support/helpdesk, dan QA/testing.",
+    "Saya adalah mahasiswa D3 Manajemen Informatika yang memiliki minat pada pengembangan website, terutama pada bagian frontend menggunakan React.js.",
+
+    "Selama mengikuti perkuliahan dan pelatihan, saya telah mempelajari HTML, CSS, JavaScript, React.js, REST API, database, serta Git dan GitHub.",
+
+    "Saya telah membuat beberapa proyek website, seperti aplikasi resep, aplikasi manajemen klinik, website Al-Qur'an digital, dan BagiPakai sebagai sarana untuk menerapkan apa yang telah saya pelajari.",
+
+    "Saat ini saya ingin terus mengembangkan kemampuan dan mendapatkan pengalaman di dunia kerja sebagai Junior Frontend Developer, Frontend Developer Intern, Junior Web Developer, atau Manual QA Tester.",
   ],
   email: "hasanahyusri12@gmail.com",
   telepon: "08886037566",
@@ -55,17 +59,7 @@ export const profile = {
 };
 
 /* ---------------- data proyek (Sesuai CV & Update Tautan Resmi) ---------------- */
-import {
-  Sparkles,
-  ChefHat,
-  BookOpen,
-  Terminal,
-  Code2,
-  Workflow,
-  Server,
-  Layers,
-  Cpu
-} from "lucide-react";
+import { Sparkles, ChefHat, BookOpen, Terminal, Code2, Workflow, Server, Layers, Cpu } from "lucide-react";
 
 export const projects = [
   {
@@ -88,11 +82,7 @@ export const projects = [
     repoUrl: "https://github.com/hasanahyusri12-dotcom/Uas-React-lanjutan-Kidscare",
     demoUrl: "https://uas-react-lanjutan-kidscare.vercel.app",
     vercelDeployUrl: "https://vercel.com/yusrihasanahs-projects/uas-react-lanjutan-kidscare/AjhK55ABMvvxV7SGZrn4e9W8nAUB",
-    screenshots: [
-      "/projects/kidscare/1.png",
-      "/projects/kidscare/2.png",
-      "/projects/kidscare/3.png",
-    ],
+    screenshots: ["/projects/kidscare/1.png", "/projects/kidscare/2.png", "/projects/kidscare/3.png"],
   },
   {
     id: "buku-resep",
@@ -114,11 +104,7 @@ export const projects = [
     repoUrl: "https://github.com/hasanahyusri12-dotcom/cook-resipe",
     demoUrl: "https://cook-resipe.vercel.app",
     vercelDeployUrl: "https://vercel.com/yusrihasanahs-projects/cook-resipe/G2emdotQQTvCDdvUQx1TfJmGnTH9",
-    screenshots: [
-      "/projects/cookrecipe/1.png",
-      "/projects/cookrecipe/2.png",
-      "/projects/cookrecipe/3.png",
-    ],
+    screenshots: ["/projects/cookrecipe/1.png", "/projects/cookrecipe/2.png", "/projects/cookrecipe/3.png"],
   },
   {
     id: "quran-web",
@@ -140,11 +126,7 @@ export const projects = [
     repoUrl: "https://github.com/hasanahyusri12-dotcom/Projek_Al_quran_Html",
     demoUrl: "https://projek-al-quran-html.vercel.app",
     vercelDeployUrl: "https://vercel.com/yusrihasanahs-projects/projek-al-quran-html/Ei6jR1hPj7e7cig3CPiU6Y8XY2h4",
-    screenshots: [
-      "/projects/quran/1.png",
-      "/projects/quran/2.png",
-      "/projects/quran/3.png",
-    ],
+    screenshots: ["/projects/quran/1.png", "/projects/quran/2.png", "/projects/quran/3.png"],
   },
   {
     id: "laundry-cli",
@@ -166,11 +148,7 @@ export const projects = [
     ],
     repoUrl: "https://github.com/hasanahyusri12-dotcom/Projek-Laundry-C",
     demoUrl: "",
-    screenshots: [
-      "/projects/laundry/1.png",
-      "/projects/laundry/2.png",
-      "/projects/laundry/3.png",
-    ],
+    screenshots: ["/projects/laundry/1.png", "/projects/laundry/2.png", "/projects/laundry/3.png"],
     terminalArt: `
   _  __     __     __     _     _   _ _   _ ____  ______   __
  | |/ /    /  \\    \\ \\   / /   | |   / \\ | | |  _ \\|  _ \\ \\ / /
@@ -243,23 +221,7 @@ export const technicalSkills = {
 };
 
 /* Running Marquee Items */
-export const marqueeSkills = [
-  "React.js",
-  "JavaScript (ES6+)",
-  "Tailwind CSS",
-  "RESTful API",
-  "HTML5 & CSS3",
-  "PostgreSQL",
-  "MySQL",
-  "Express.js",
-  "Bahasa C",
-  "Git & GitHub",
-  "Postman",
-  "DBeaver",
-  "Vercel",
-  "SQL Server",
-  "Struktur Data"
-];
+export const marqueeSkills = ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "RESTful API", "HTML5 & CSS3", "PostgreSQL", "MySQL", "Express.js", "Bahasa C", "Git & GitHub", "Postman", "DBeaver", "Vercel", "SQL Server", "Struktur Data"];
 
 /* ---------------- timeline riwayat (Sesuai CV Resmi) ---------------- */
 export const timeline = [
